@@ -1,10 +1,14 @@
 h1{
-    color:blue
+color:rgb(25, 25, 150);
+margin: 30px;
+
+
 }
 .classheader{
     background-color: rgb(184, 222, 135);
     display: flex;
     justify-content: space-evenly;
+  
 }
 .body{
     background-color: rgb(80, 214, 255);
@@ -13,7 +17,40 @@ h1{
     justify-content: space-evenly;
 }
 .classgame{
-    
 display: flex;
 justify-content : center;
 }
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color: chartreuse;
+}
+.classgame{
+    position:relative
+}
+.classgame p{
+    position: absolute;
+    top: 50%;
+   left: 50%; font-size: 30px;
+   transform: translate(-50%,-50%);
+   opacity: 0;
+}
+.classgame:hover p{
+    opacity: 1;
+}
+.classgame:hover img{
+    opacity: 0.2;
+}
+.about{
+    margin-left: 400px;
+}
+
+
+
+
+
+
+
+
+
